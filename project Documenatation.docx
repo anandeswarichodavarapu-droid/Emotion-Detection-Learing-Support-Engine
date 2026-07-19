@@ -1,0 +1,239 @@
+1. Introduction
+
+Project Title: AI-Driven Emotion Detection & Personalized Learning Support Platform
+
+Program: Google Cloud Generative AI
+
+Project Type: AI-Powered Educational Support System
+
+Team Members:-
+
+Team Lead: Geddada Abhishek
+Member: Nookada Dharani
+Member: Rama Surya Karthikeya Salagrama
+Member: Jyothi Sri Lakshmi Vasamsetti
+Member: Chikkala Leela Kalyani
+
+
+2. Project Overview
+Purpose
+
+The AI-Driven Emotion Detection & Personalized Learning Support Platform is designed to understand students' emotions from text and provide personalized learning assistance. The platform analyzes learner input using deep learning models and generates supportive, emotion-aware responses using Generative AI.
+
+Instead of manually interpreting student concerns, the system automatically detects emotional states such as confusion, frustration, curiosity, boredom, and confidence, enabling educators and learners to receive instant guidance.
+
+3. Objectives
+Detect student emotions from free-text input.
+Provide personalized learning guidance using AI.
+Improve student engagement through emotion-aware responses.
+Reduce response time for academic support.
+Track emotional trends for future analysis.
+Support self-paced learning with intelligent recommendations.
+4. Features
+User-friendly Streamlit interface
+Emotion Detection using BiLSTM
+Emotion Detection using BERT
+Mixed Emotion Prediction
+AI-generated Personalized Learning Support
+Gemini AI Integration
+Confidence Score Visualization
+Emotion Analytics Dashboard
+CSV Interaction Logging
+Model Comparison (BiLSTM vs BERT)
+Rule-based Keyword Enhancement
+Real-time Response Generation
+5. Technology Stack
+Layer	Technology
+Frontend	Streamlit
+Programming Language	Python
+AI Models	BiLSTM, BERT
+Deep Learning	PyTorch
+Generative AI	Google Gemini AI
+Machine Learning	Transformers
+Data Processing	NumPy
+Data Storage	CSV Files
+Development Tools	VS Code, Jupyter Notebook
+Version Control	Git & GitHub
+6. System Architecture
+Frontend
+
+The frontend is developed using Streamlit, providing a simple and interactive interface where users enter their learning challenges and receive AI-generated emotional analysis.
+
+Backend
+
+The backend is developed in Python, integrating deep learning models, rule-based keyword enhancement, and Google Gemini AI for personalized guidance.
+
+AI Engine
+
+The system processes user input through:
+
+Text Preprocessing
+Emotion Classification
+Mixed Emotion Detection
+Confidence Score Calculation
+AI Response Generation
+Database
+
+The application stores interaction history and prediction results in CSV files for analytics and future improvements.
+
+7. User Workflow
+User enters learning problem
+        │
+        ▼
+Text Preprocessing
+        │
+        ▼
+Emotion Detection
+(BERT + BiLSTM)
+        │
+        ▼
+Mixed Emotion Analysis
+        │
+        ▼
+Gemini AI Response Generation
+        │
+        ▼
+Display Personalized Guidance
+        │
+        ▼
+Save Results to CSV
+        │
+        ▼
+Analytics Dashboard
+8. Target Users
+Scenario 1 – Educators & Academic Support Teams
+
+Teachers and teaching assistants can analyze student concerns quickly. The platform automatically detects emotions and suggests appropriate responses, reducing manual effort and improving consistency.
+
+Scenario 2 – Students & Self-Learners
+
+Students can describe their academic challenges in natural language and instantly receive emotion-aware guidance, helping them overcome learning difficulties more efficiently.
+
+9. Folder Structure
+project/
+
+│── app.py
+│── models/
+│── datasets/
+│── notebooks/
+│── utils/
+│── prompts/
+│── analytics/
+│── logs/
+│── requirements.txt
+│── README.md
+10. Setup Instructions
+Prerequisites
+Python 3.8+
+Git
+VS Code
+Jupyter Notebook
+Streamlit
+Installation
+
+Clone the repository
+
+git clone <repository-url>
+
+Install dependencies
+
+pip install -r requirements.txt
+
+Run the application
+
+streamlit run app.py
+11. Hardware Requirements
+Intel i3 Processor or higher
+Minimum 4 GB RAM
+Recommended 8 GB RAM
+2 GB Free Storage
+Internet Connection
+Web Browser
+12. Software Requirements
+Windows / Linux / macOS
+Python 3.8+
+Anaconda Navigator
+Jupyter Notebook
+VS Code / PyCharm
+Chrome / Edge / Firefox
+13. API Documentation
+
+The application performs the following operations:
+
+Emotion Prediction
+AI Guidance Generation
+Interaction Logging
+Analytics Generation
+Confidence Score Calculation
+14. User Interface
+
+The application contains:
+
+Home Page
+Emotion Detection Screen
+Prediction Result Page
+AI Guidance Section
+Analytics Dashboard
+Model Comparison View
+History Page
+15. Testing
+
+The system was tested for:
+
+Emotion Prediction Accuracy
+BERT Model Performance
+BiLSTM Model Performance
+Gemini API Response
+CSV Logging
+Dashboard Visualization
+Streamlit Interface
+Error Handling
+16. Screenshots
+
+Include screenshots of:
+
+Home Page
+User Input Screen
+Emotion Prediction Output
+Mixed Emotion Analysis
+AI Guidance Response
+Analytics Dashboard
+Model Comparison
+CSV Logs
+17. Known Issues
+Internet connection required for Gemini API.
+Prediction accuracy depends on training data quality.
+Limited multilingual support.
+Large models increase processing time.
+Currently optimized for educational content only.
+18. Future Enhancements
+Mobile Application
+Voice-based Emotion Detection
+Multi-language Support
+Student Progress Dashboard
+Teacher Dashboard
+Cloud Database Integration
+User Authentication
+Learning Recommendation Engine
+Real-time Chat Assistant
+Emotion Trend Analytics
+19. Skills Used
+Python
+Responsible AI
+Generative AI
+Prompt Engineering
+PyTorch
+Transformers
+BERT
+BiLSTM
+Streamlit
+NumPy
+Google Gemini AI
+20. Conclusion
+
+The AI-Driven Emotion Detection & Personalized Learning Support Platform demonstrates how artificial intelligence can enhance the educational experience by identifying learner emotions and providing personalized guidance. Through the integration of BiLSTM, BERT, and Google Gemini AI, the platform delivers fast, empathetic, and intelligent support to students and educators alike. It reduces manual effort, improves response quality, and enables data-driven insights through analytics, making it a scalable solution for modern learning environments.
+
+This version is professional, well-structured, and suitable for submission as a project report. It spans approximately 12–15 pages when formatted in Microsoft Word with headings, screenshots, and diagrams included.
+
+
+
